@@ -1,0 +1,45 @@
+
+.whb-sticked .whb-general-header .wd-dropdown {
+	margin-top: 22px;
+}
+
+.whb-sticked .whb-general-header .wd-dropdown:after {
+	height: 32px;
+}
+
+
+
+@media (min-width: 1025px) {
+	
+		.whb-general-header-inner {
+		height: 120px;
+		max-height: 120px;
+	}
+
+		.whb-sticked .whb-general-header-inner {
+		height: 84px;
+		max-height: 84px;
+	}
+		
+	
+	
+	}
+
+@media (max-width: 1024px) {
+	
+		.whb-general-header-inner {
+		height: 120px;
+		max-height: 120px;
+	}
+	
+	
+	
+	}
+		.whb-top-bar-inner { border-color: rgba(255, 255, 255, 0.25);border-bottom-width: 1px;border-bottom-style: solid; }
+.whb-general-header {
+	background-color: rgba(255, 255, 255, 1);border-bottom-width: 0px;border-bottom-style: solid;
+}
+
+.whb-header-bottom {
+	border-color: rgba(230, 230, 230, 1);border-bottom-width: 1px;border-bottom-style: solid;
+}

@@ -1,0 +1,358 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Remove extra hide from top of the metabox body */
+#post-body #normal-sortables {
+    min-height: 0px;
+}
+
+/* Disable dragging of meta boxes */
+.wpgp--metabox-options#_wpgp_page_options .ui-sortable-handle {
+    pointer-events: none;
+}
+
+.wpgp--metabox-options#_wpgp_page_options button.handlediv {
+    display: none;
+}
+
+/* Metabox Heading Styel */
+.wpgp--metabox-options#_wpgp_page_options h2.hndle.ui-sortable-handle {
+    font-size: 32px;
+    padding-top: 35px;
+    background: #DC0251;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 70px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Nav */
+.wpgp--metabox-options#_wpgp_page_options .wpgp-nav {
+    width: 100%;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-nav ul {
+    margin-top: -33px;
+    background: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 7px -3px;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-theme-light .wpgp-nav ul li .wpgp-section-active {
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-content {
+    margin-left: 0;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-theme-light .wpgp-nav-background {
+    display: none;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-nav ul li a {
+    padding: 25px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-theme-light .wpgp-nav ul li a {
+    background-color: #ffffff;
+    border-bottom: 0;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-nav .fa {
+    font-size: 15px;
+}
+
+/* Tabs details */
+.wpgp--metabox-options#_wpgp_page_options .wpgp--menu-detail {
+    padding: 15px 30px;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp--menu-detail strong {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .wpgp--metabox-options#_wpgp_page_options .wpgp--menu-detail p {
+        width: 50%;
+    }
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp--menu-detail a {
+    margin-left: 30px;
+    background: #02C23C;
+    padding: 6px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    float: right;
+}
+
+/* SHortcode Side Context */
+.wpgp--shortcode-field .wpgp--shortcode-field-wrap {
+    padding: 30px 10px;
+    background: #dc0251;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.wpgp--shortcode-field .wpgp--shortcode-field-wrap code {
+    font-size: 15px;
+    -webkit-touch-callout: all;
+    -webkit-user-select: all;
+    -khtml-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
+/* Others */
+.wpgp--metabox-options#_wpgp_page_options .wpgp--width-50 .wpgp-fieldset {
+    width: 50%;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp-field-spacing input[type=number]:focus {
+    box-shadow: none;
+    border-color: #7e8993;
+    background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 1380px) {
+
+    .wpgp--metabox-options#_wpgp_page_options .wpgp-text-desc img {
+        width: 100%;
+    }
+}
+
+/* Transparent placeholder text */
+.wpgp--metabox-options#_wpgp_page_options .wpgp--no-placeholder input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: transparent;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp--no-placeholder input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: transparent;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp--no-placeholder input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: transparent;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp--no-placeholder input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: transparent;
+}
+
+.wpgp--metabox-options#_wpgp_page_options .wpgp--no-placeholder input::placeholder {
+    color: transparent;
+}
+
+
+
+/******************************************
+* Help page css start
+*/
+.wrap.about-wrap.wpgp--help {
+    position: relative;
+}
+
+.wrap.about-wrap.wpgp--help .about-text {
+    position: relative;
+    margin: 0;
+}
+
+.wrap.about-wrap.wpgp--help .about-text .text {
+    width: 85%;
+    display: inline-block;
+}
+
+.help-badge {
+    background: transparent url(../img/icon-128x128.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    float: right;
+    width: 128px;
+    height: 128px;
+    margin-top: -35px;
+    background-position: center;
+}
+
+div.wpgp--help .feature-section .wpgp--feature {
+    background-color: #fff;
+    padding: 20px 20px;
+    border: 1px solid #ddd;
+}
+
+div.wpgp--help .feature-section .wpgp--feature h3 {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+div.wpgp--help .feature-section i.sp-font {
+    font-size: 30px;
+    display: block;
+    color: #0dc2ed;
+}
+
+div.wpgp--help .feature-section .button {
+    margin-top: 0px;
+}
+
+div.wpgp--help.about-wrap h1 {
+    font-size: 2.6em;
+}
+
+div.wpgp--help .headline-feature.feature-video {
+    position: relative;
+    margin: 40px 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+    text-align: center;
+}
+
+div.wpgp--help .headline-feature.feature-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.wpgp--help.about-wrap .wpgp--text-center {
+    text-align: center;
+}
+
+/*
+More Plugins
+*/
+.about-wrap .plugin-section .three-col .col {
+    background: #fff;
+}
+
+.about-wrap .plugin-section .three-col .col .wpgp--plugin {
+    border: 1px solid #ddd;
+}
+
+.about-wrap .plugin-section .three-col .col .wpgp--plugin .wpgp--plugin-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.about-wrap .plugin-section .three-col .col .wpgp--plugin .wpgp--plugin-content h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.about-wrap .plugin-section .three-col .col .wpgp--plugin .wpgp--plugin-content p {
+    margin-top: 0;
+}
+
+.about-wrap .plugin-section .sp-plugin-section-title h2 {
+    font-size: 2.2em;
+    color: #32373c;
+    font-weight: 400;
+}
+
+.about-wrap .plugin-section .sp-plugin-section-title h4 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    color: #555d66;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.wpgp--help.about-wrap [class$="-col"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wpgp--help.about-wrap [class$="-col"] .col {
+    flex: 1;
+    align-self: flex-start;
+}
+
+.wpgp--help.about-wrap .col {
+    margin-top: 40px;
+}
+
+.about-wrap [class$="-col"] .col+.col {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 782px) {
+    .about-wrap .three-col .col {
+        min-width: 48% !important;
+        max-width: 48% !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about-wrap .three-col .col {
+        min-width: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/*
+* Help page css end
+******************************************/
+
+
+
+/* Add New Page */
+.wpgp--metabox-options .handle-actions {
+    display: none;
+}
+.wpgp--metabox-options h2.hndle.ui-sortable-handle {
+    justify-content: center;
+    text-shadow: 1px 1px 1px #000000;
+}
+.wpgp--metabox-options .fa-toggle-off:before,
+.wpgp--metabox-options .fa-toggle-on:before {
+    font-family: 'FontAwesome';
+}
+.wpgp .wpgp-field-spinner .ui-button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-width: 20px;
+    color: #555;
+    background-color: #f5f5f5;
+}
+.wpgp .wpgp-field-spinner .ui-spinner-up {
+    border-top: 1px solid #7e8993;
+    border-right: 1px solid #7e8993;
+    border-bottom: 1px solid #7e8993;
+}
+.wpgp .wpgp-field-spinner .ui-spinner-down {
+    border-top: 1px solid #7e8993;
+    border-left: 1px solid #7e8993;
+    border-bottom: 1px solid #7e8993;
+}

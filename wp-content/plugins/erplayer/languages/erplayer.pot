@@ -1,0 +1,810 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TTG "
+"Xtend Plugin\n"
+"POT-Creation-Date: "
+"2020-03-17 16:57+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: "
+"Themes2Go\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"1.8.9\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: erplayer.php:107
+#, php-format
+msgid ""
+"\"%1$s\" requires \"%2$s"
+"\" to be installed and "
+"activated."
+msgstr ""
+
+#: erplayer.php:108
+#: erplayer.php:155
+msgid ""
+"Elementor Radio Player"
+msgstr ""
+
+#: erplayer.php:109
+#: erplayer.php:132
+msgid "Elementor"
+msgstr ""
+
+#: erplayer.php:130
+#: erplayer.php:154
+#, php-format
+msgid ""
+"\"%1$s\" requires \"%2$s"
+"\" version %3$s or "
+"greater."
+msgstr ""
+
+#: erplayer.php:131
+msgid "ProRadio Builder"
+msgstr ""
+
+#: erplayer.php:156
+msgid "PHP"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:21
+#: inc/backend/posttype/radiochannel.php:33
+#: inc/elementor/widgets/radio/fields/channels.php:422
+#: inc/elementor/widgets/radio/widget-elementor-radio.php:53
+msgid "Radio channels"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:22
+msgid "Radio channel"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:23
+msgid "Add new channel"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:24
+msgid ""
+"Add new radio channel"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:25
+msgid "Edit radio channel"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:26
+msgid "New radio channel"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:27
+msgid "All radio channels"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:28
+msgid "View radio channel"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:29
+msgid ""
+"Search radio channels"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:30
+msgid ""
+"No radio channels found"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:31
+msgid ""
+"No radio channels found "
+"in Trash"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:71
+msgid "MP3 Stream URL"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:76
+#: inc/elementor/widgets/radio/fields/channels.php:126
+msgid "Radio subtitle"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:81
+#: inc/elementor/widgets/radio/fields/channels.php:116
+msgid "Radio logo"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:86
+#: inc/elementor/widgets/radio/fields/channels.php:158
+msgid "Server type"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:92
+#: inc/elementor/widgets/radio/fields/channels.php:166
+msgid "Metadata"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:96
+#: inc/elementor/widgets/radio/fields/channels.php:167
+msgid "SHOUTcast"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:100
+#: inc/elementor/widgets/radio/fields/channels.php:168
+msgid "IceCast"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:104
+#: inc/elementor/widgets/radio/fields/channels.php:169
+msgid "Radio.co"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:108
+#: inc/elementor/widgets/radio/fields/channels.php:170
+msgid "AirTime"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:112
+#: inc/elementor/widgets/radio/fields/channels.php:171
+msgid "Radionomy"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:116
+#: inc/elementor/widgets/radio/fields/channels.php:172
+msgid "Live365"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:120
+#: inc/elementor/widgets/radio/fields/channels.php:173
+msgid ""
+"Plain text (author - "
+"title)"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:126
+#: inc/elementor/widgets/radio/fields/channels.php:186
+msgid ""
+"SHOUTCast XMl Feed HOST"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:137
+#: inc/elementor/widgets/radio/fields/channels.php:198
+msgid ""
+"SHOUTCast XMl Feed PORT"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:148
+#: inc/elementor/widgets/radio/fields/channels.php:210
+msgid ""
+"SHOUTCast Channel "
+"(default 1)"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:159
+#: inc/elementor/widgets/radio/fields/channels.php:222
+msgid "SHOUTCast protocol"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:161
+msgid ""
+"Force HTTPS protocol "
+"for non-443 port. Ask "
+"your streaming provider "
+"for the right settings."
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:166
+#: inc/elementor/widgets/radio/fields/channels.php:226
+msgid ""
+"Automatic (uses https "
+"when port is 443)"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:170
+#: inc/elementor/widgets/radio/fields/channels.php:227
+msgid "Force HTTPS"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:182
+#: inc/elementor/widgets/radio/fields/channels.php:245
+msgid "IceCast json URL"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:191
+msgid ""
+"Important! Needs to be "
+"in your same protocol "
+"of the website! If your "
+"site is in https you "
+"have to put the URL "
+"with https and your "
+"icecast server needs to "
+"support this"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:194
+#: inc/elementor/widgets/radio/fields/channels.php:257
+msgid ""
+"IceCast mountpoint "
+"(including \"/\")"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:202
+#: inc/elementor/widgets/radio/fields/channels.php:258
+#: inc/elementor/widgets/radio/fields/channels.php:271
+msgid "Optional"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:206
+#: inc/elementor/widgets/radio/fields/channels.php:270
+msgid "IceCast channel"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:207
+msgid ""
+"only for Icecast radios "
+"with multi-channel feed"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:218
+#: inc/elementor/widgets/radio/fields/channels.php:289
+msgid "Radio.co radio ID"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:227
+msgid ""
+"For Radio.co users, "
+"find the ID in the "
+"streaming URL, example: "
+"https://streamer.radio."
+"co/[YOUR ID]/listen#.mp3"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:230
+#: inc/elementor/widgets/radio/fields/channels.php:307
+msgid "Airtime"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:239
+msgid ""
+"For AirTime Pro users "
+"add your API url "
+"(http://[YOUR ID]."
+"airtime.pro/api/live-"
+"info-v2)"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:242
+#: inc/elementor/widgets/radio/fields/channels.php:325
+msgid "Radionomy user ID"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:251
+#: inc/backend/posttype/radiochannel.php:263
+msgid ""
+"Looks like xxxxxxxx-"
+"xxxx-xxxx-xxxx-"
+"xxxxxxxxxxxx"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:254
+#: inc/elementor/widgets/radio/fields/channels.php:337
+msgid "Radionomy API key"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:266
+#: inc/elementor/widgets/radio/fields/channels.php:355
+msgid "Live365 ID"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:275
+msgid ""
+"Alphanumeric ID only, "
+"not the full URL. "
+"Example: for the "
+"channel http://player."
+"live365.com/x12345?l "
+"input only x12345"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:278
+#: inc/elementor/widgets/radio/fields/channels.php:373
+msgid "Plain text"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:287
+msgid ""
+"If you have a URL "
+"displaying a plain text "
+"as ARTIST NAME - SONG "
+"TITLE add the URL in "
+"this field."
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:290
+msgid ""
+"Exclude from playlist"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:293
+msgid ""
+"Do  not include this "
+"radio channel in the "
+"default playlist."
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:296
+#: inc/elementor/widgets/radio/fields/channels.php:393
+msgid "Use proxy"
+msgstr ""
+
+#: inc/backend/posttype/radiochannel.php:299
+#: inc/elementor/widgets/radio/fields/channels.php:398
+msgid ""
+"Try this option if you "
+"can't see any title. "
+"The ajax request will "
+"be served by an "
+"internal PHP proxy to "
+"fix CORS block caused "
+"by some radio providers"
+msgstr ""
+
+#: inc/elementor/_plugin.php:101
+#: inc/elementor/widgets/radio/widget-elementor-radio.php:25
+msgid "Radio Player"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/backgrounds.php:23
+msgid "Background color"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/backgrounds.php:31
+msgid "Background image"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/backgrounds.php:45
+msgid ""
+"Default background image"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/backgrounds.php:47
+msgid ""
+"Upload any image to be "
+"used as player "
+"background"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/backgrounds.php:53
+msgid ""
+"Default background "
+"image opacity"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:26
+msgid ""
+"Include radio channels "
+"archive"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:29
+msgid ""
+"Use the list of "
+"channels from the Radio "
+"Channel post type."
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:40
+msgid ""
+"Set a radio logo "
+"fallback"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:43
+#: inc/elementor/widgets/radio/fields/channels.php:150
+msgid ""
+"Add a default image for "
+"the radio channels "
+"without the logo"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:53
+msgid "Default radio logo"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:54
+msgid ""
+"Used for radio channels "
+"without a logo"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:64
+msgid ""
+"Album cover background "
+"image opacity"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:65
+msgid ""
+"Change the alpha for "
+"the radio logo or cover "
+"used as dynamic "
+"background for the "
+"player"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:89
+msgid "Search album cover"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:93
+msgid ""
+"Try to retrieve the "
+"album artwork from the "
+"song titles."
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:104
+msgid "Title"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:118
+msgid "Squared, 300x300px"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:134
+msgid "Audio stream URL"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:147
+msgid ""
+"Display song titles"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:165
+msgid ""
+"Read song titles from:"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:414
+msgid ""
+"We recommend adding the "
+"Radio Channels using "
+"the custom post type "
+"Radio Channels instead "
+"of here."
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/channels.php:414
+msgid ""
+"In this way you will "
+"need to enter your "
+"channel details only "
+"once."
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/colors.php:21
+msgid "Text color"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/colors.php:29
+msgid "Accent color"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/functionalities.php:22
+msgid ""
+"Display playlist button"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/functionalities.php:26
+msgid ""
+"Hide or show the icon "
+"to open the playlist"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/functionalities.php:33
+msgid ""
+"Display volume control"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/functionalities.php:37
+msgid ""
+"Desktop only: you can't "
+"control the volume on "
+"mobile from the browser"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/functionalities.php:44
+msgid "Start volume"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:26
+msgid "Layout"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:30
+msgid "Card"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:31
+msgid "Bar compact"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:32
+msgid "Full width bar"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:33
+msgid "Button only"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:42
+msgid "Thumbnail size"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:65
+msgid "Button size"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:100
+msgid "Position"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:104
+msgid "Inline"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:105
+msgid "Fixed"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:116
+msgid "Auto page spacing"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:119
+msgid ""
+"For fixed positioning"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:131
+msgid "Location"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:135
+msgid "Top right"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:136
+msgid "Top left"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:137
+msgid "Bottom right"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:138
+msgid "Bottom left"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:150
+msgid "Playlist side"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:154
+msgid "Auto"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:155
+msgid "Down"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:156
+msgid "Up"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:169
+msgid "Maximum width"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:190
+msgid "Margin"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:211
+msgid "Internal padding"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:232
+msgid "Player shadow"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:253
+msgid "Box radius"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/settings.php:274
+msgid "Cover radius"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:23
+msgid ""
+"Visible only when "
+"setting Position to "
+"Fixed"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:31
+msgid ""
+"Display a toggle button"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:35
+msgid "For fixed location"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:45
+msgid "Open in popup"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:48
+msgid ""
+"Open a popup window "
+"with the player"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:59
+msgid "Popup width"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:71
+msgid "Popup height"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:85
+msgid ""
+"Initial player "
+"visibility"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:90
+msgid "Visible"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:91
+msgid "Hidden"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:103
+msgid ""
+"Toggle button background"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:116
+msgid ""
+"Toggle button "
+"background hover"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:129
+msgid "Toggle button text"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:142
+msgid ""
+"Toggle button text hover"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:158
+msgid "Height"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:184
+msgid "Padding"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:212
+msgid ""
+"Toggle button radius"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:238
+msgid "Toggle font size"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:263
+msgid ""
+"Toggle button label"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/togglebutton.php:265
+msgid ""
+"Text for the visibility "
+"button"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/typo.php:26
+msgid "Title Typography"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/typo.php:37
+msgid "Artist Typography"
+msgstr ""
+
+#: inc/elementor/widgets/radio/fields/typo.php:48
+msgid "Album Typography"
+msgstr ""
+
+#: inc/elementor/widgets/radio/widget-elementor-radio.php:75
+msgid "Design settings"
+msgstr ""
+
+#: inc/elementor/widgets/radio/widget-elementor-radio.php:92
+msgid "Typography"
+msgstr ""
+
+#: inc/elementor/widgets/radio/widget-elementor-radio.php:115
+msgid "Toggle button"
+msgstr ""
+
+#: inc/elementor/widgets/radio/widget-elementor-radio.php:136
+msgid "Backgrounds"
+msgstr ""
+
+#: inc/elementor/widgets/radio/widget-elementor-radio.php:154
+msgid "Text colors"
+msgstr ""
+
+#: inc/elementor/widgets/radio/widget-elementor-radio.php:171
+msgid "Functionalities"
+msgstr ""
+
+#: inc/frontend/func/mp3streamtitle.php:17
+msgid ""
+"No titles available"
+msgstr ""
+
+#: inc/frontend/func/mp3streamtitle.php:36
+msgid ""
+"Cannot open the stream"
+msgstr ""
+
+#: inc/frontend/templates/button-popup.php:6
+#: inc/frontend/templates/button-popup.php:14
+#: inc/frontend/templates/button-toggle.php:6
+msgid "Player"
+msgstr ""
